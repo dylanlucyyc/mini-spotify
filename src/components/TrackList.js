@@ -5,7 +5,7 @@ import PlayCircleIcon from "@mui/icons-material/PlayCircle";
 import PauseIcon from "@mui/icons-material/Pause";
 
 const TrackList = () => {
-  const { trackList, currentTrackName, playTrack, isPlaying, togglePlay } =
+  const { trackList, currentTrackName, playTrack, isPlaying } =
     useMusicPlayer();
 
   return (
